@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Strategis - DIKSI Kerinci</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans">
+
+    <nav class="bg-blue-900 text-white p-4 shadow-md sticky top-0 z-50">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/2/28/Lambang_Badan_Pusat_Statistik_%28BPS%29.svg" alt="Logo BPS" class="w-8">
+                <span class="font-bold text-lg tracking-tighter uppercase">Diksi Kerinci</span>
+            </div>
+            <div class="flex space-x-6 text-sm">
+                <a href="index.html" class="hover:text-blue-300 transition">Beranda</a>
+                <a href="data.html" class="text-blue-300 font-bold">Data</a>
+                <a href="#" class="hover:text-blue-300 transition">Visualisasi</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="bg-white border-b border-slate-200 py-12">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-3xl font-extrabold text-slate-900 mb-2">Katalog Data Strategis</h1>
+            <p class="text-slate-500">Kumpulan indikator utama pembangunan Kabupaten Kerinci</p>
+        </div>
+    </div>
+
+    <main class="container mx-auto py-10 px-4">
+        
+        <div class="flex flex-wrap justify-center gap-4 mb-10">
+            <button class="bg-blue-600 text-white px-6 py-2 rounded-full shadow-md text-sm font-semibold">Semua Data</button>
+            <button class="bg-white text-slate-600 px-6 py-2 rounded-full border border-slate-200 hover:bg-slate-50 text-sm font-semibold">Sosial</button>
+            <button class="bg-white text-slate-600 px-6 py-2 rounded-full border border-slate-200 hover:bg-slate-50 text-sm font-semibold">Ekonomi</button>
+            <button class="bg-white text-slate-600 px-6 py-2 rounded-full border border-slate-200 hover:bg-slate-50 text-sm font-semibold">Pertanian</button>
+        </div>
+
+        <div class="grid gap-10">
+            
+            <section class="bg-white rounded-2xl shadow-sm border border-slate-100 overflow-hidden">
+                <div class="bg-blue-50 px-6 py-4 border-b border-slate-100">
+                    <h2 class="text-blue-900 font-bold flex items-center"><i class="fas fa-users mr-3"></i> Indikator Sosial & Kependudukan</h2>
+                </div>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-left">
+                        <thead>
+                            <tr class="text-slate-400 text-[10px] uppercase tracking-widest border-b border-slate-50">
+                                <th class="px-6 py-4">Indikator</th>
+                                <th class="px-6 py-4 text-center">2021</th>
+                                <th class="px-6 py-4 text-center">2022</th>
+                                <th class="px-6 py-4 text-center">2023</th>
+                                <th class="px-6 py-4 text-center bg-blue-50/30">2024</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-slate-50 text-sm">
+                            <tr class="hover:bg-slate-50 transition">
+                                <td class="px-6 py-4 font-medium">Jumlah Penduduk (Ribu Jiwa)</td>
+                                <td class="px-6 py-4 text-center">253.21</td>
+                                <td class="px-6 py-4 text-center">255.40</td>
+                                <td class="px-6 py-4 text-center">257.50</td>
+                                <td class="px-6 py-4 text-center font-bold text-blue-600">260.12</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition">
+                                <td class="px-6 py-4 font-medium">Angka Harapan Hidup (Tahun)</td>
+                                <td class="px-6 py-4 text-center">70.12</td>
+                                <td class="px-6 py-4 text-center">70.45</td>
+                                <td class="px-6 py-4 text-center">70.80</td>
+                                <td class="px-6 py-4 text-center font-bold text-blue-600">71.15</td>
+                            </tr>
+                            <tr class="hover:bg-slate-50 transition">
+                                <td class="px-6 py-4 font-medium">Rata-rata Lama Sekolah (Tahun)</td>
+                                <td class="px-6 py-4 text-center">8.45</td>
+                                <td class="px-6 py-4 text-center">8.55</td>
+                                <td class="px-6 py-4 text-center">8.70</td>
+                                <td class="px-6 py-4 text-center font-bold text-blue-600">8.
